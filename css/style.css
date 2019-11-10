@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=latin-ext,vietnamese");
+* {
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+body {
+  color: #000;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  margin: 0; }
+
+.txt_slogan h2 {
+  font-weight: normal;
+  color: #3e3e3e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 22px;
+  color: black; }
+
+.product__cate {
+  padding: 1%;
+  color: black;
+  font-size: 22px;
+  background-color: #f9f9f9;
+  border-bottom: 1px inset black;
+  margin-bottom: 1%; }
+
+.product__image {
+  text-align: center; }
+  .product__image img {
+    width: auto;
+    height: 150px; }
+
+.product__info {
+  margin-top: 10px; }
+
+.product__name {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  font-weight: normal; }
