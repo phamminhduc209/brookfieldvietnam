@@ -8,7 +8,8 @@
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="libs/swiper/css/swiper.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<link rel="stylesheet" href="libs/slick/slick.css">
+	<link rel="stylesheet" href="libs/slick/slick-theme.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -16,7 +17,7 @@
 		<div class="header_top">
 			<div class="container">
 				<div class="header_logo">
-					<h1><img src="images/logo2.png" alt=""></h1>
+					<h1><a href="index.html" title=""><img src="images/logo2.png" alt=""></a></h1>
 				</div>
 			</div>
 		</div>
@@ -53,33 +54,45 @@
 					</div>
 					<div class="col-sm-9 col-xs-12">
 						<div class="row">
-							<div class="col-sm-6 col-xs-12">
+							<div class="col-sm-5 col-xs-12">
 								<div class="product_images">
-									<div class="bxslider product_images_gallery">
-                                        <div class="item">
-                                            <img src="images/products/190923.jpg" alt="#" />
-                                        </div>
-                                        <div class="item">
-                                            <img src="images/products/11101.jpg" alt="#" />
-                                        </div>
-                                    </div>
-                                    <div class="product_images_thumb">
-                                        <div class="item">
-                                            <a href="#" data-slide-index="0">
-                                                <img src="images/products/190923.jpg" alt="#" />
-                                            </a>
-                                        </div>
-                                        <div class="item">
-                                            <a href="#" data-slide-index="1">
-                                                <img src="images/products/11101.jpg" alt="#" />
-                                            </a>
-                                        </div>
-                                    </div>
+									<div class="slider slider-for">
+										<div>
+											<img src="images/products/11101.jpg" alt="">
+										</div>
+										<div>
+											<img src="images/products/190923.jpg" alt="">
+										</div>
+										<div>
+											<img src="images/products/11101.jpg" alt="">
+										</div>
+										<div>
+											<img src="images/products/190923.jpg" alt="">
+										</div>
+									</div>
+									<div class="slider slider-nav">
+										<div>
+											<img src="images/products/11101.jpg" alt="">
+										</div>
+										<div>
+											<img src="images/products/190923.jpg" alt="">
+										</div>
+										<div>
+											<img src="images/products/11101.jpg" alt="">
+										</div>
+										<div>
+											<img src="images/products/190923.jpg" alt="">
+										</div>
+									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-xs-12">
-								<div class="product_info">
-									
+							<div class="col-sm-7 col-xs-12">
+								<div class="product-info">
+									<h1>MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</h1>
+									<div class="product-info__detail">
+										<p>Máy đo độ nhớt model KU3 là thiết bị được cải tiến nâng cấp lên từ model KU2, được ứng dụng để đo độ nhớt trong ngành công nghiệp sơn, mực in, keo, coating.</p>
+										<p>Phù hợp với tiêu chuẩn ASTM D562</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -140,13 +153,8 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
 	<script src="libs/swiper/js/swiper.min.js"></script>
-    <script src="libs/jquery.bxslider.min.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
 	<script src="libs/sticky/jquery.sticky.js"></script>
 	<script src="js/main.js"></script>
-	<script>
-        $(document).ready(function () {
-            
-        });
-    </script>
 </body>
 </html>

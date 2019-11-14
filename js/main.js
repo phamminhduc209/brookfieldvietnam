@@ -36,19 +36,20 @@
     });
   });
 
-  $(".bxslider").bxSlider({
-    pagerCustom: '.product_thumb_img',
-    nextText: '<i class=fa fa-rounded-right"></i>',
-    prevText: '<i class="fa fa-rounded-left"></i>'
+  $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
   });
-
-  $(".product_images_thumb").bxSlider({
-    slideMargin: 10,
-    maxSlides: 5,
-    pager: false,
-    controls: false,
-    slideWidth: 86,
-    infiniteLoop: false
+  $('.slider-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    dots: true,
+    centerMode: true,
+    focusOnSelect: true
   });
 
 })(jQuery); // End of use strict
