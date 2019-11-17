@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
-	<meta charset="UTF-8">
-	<title>Cate</title>
-
-	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Cate</title>
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="libs/swiper/css/swiper.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -14,9 +14,12 @@
 	<header class="header">
 		<div class="header_top">
 			<div class="container">
-				<div class="d-flex justify-content-between align-items-center">
+				<div class="d-sm-flex justify-content-sm-between align-items-sm-center">
 					<div class="header_logo">
-						<h1><a href="index.html" title=""><img src="images/logo2.png" alt=""></a></h1>
+						<h1>
+							<span class="d-none">brookfieldvietnam</span>
+							<a href="index.html" title=""><img src="images/logo2.png" alt=""></a>
+						</h1>
 					</div>
 					<div class="header_contact">
 						<span class="txt">Service &amp; Repair: </span>
@@ -24,7 +27,7 @@
 						<div class="header_search">
 							<form action="#" method="POST">
 								<div class="header_search_inner">
-									<input type="text" name="" class="header_search_input">
+									<input type="text" name="search" class="header_search_input">
 									<button type="submit" class="header_search_btn">
 										<i class="fa fa-search"></i>
 									</button>
@@ -36,13 +39,38 @@
 			</div>
 		</div>
 		<div class="header_menu">
-			<ul class="menu container">
-				<li class="menu_item"><a href="index.html" title="Trang Chủ">Trang Chủ</a></li>
-				<li class="menu_item"><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt</a></li>
-				<li class="menu_item"><a href="cate.html" title="Máy Đo Độ Lưu Biến">Máy Đo Độ Lưu Biến</a></li>
-				<li class="menu_item"><a href="cate.html" title="Máy Phân Tích Cấu Trúc">Máy Phân Tích Cấu Trúc</a></li>
-				<li class="menu_item"><a href="contact.html" title="Liên Hệ">Liên Hệ</a></li>
-			</ul>
+			<div class="d-flex">
+				<div class="logo">
+					<img src="images/logo2.png" alt="">
+				</div>
+				<div class="humbgr">
+					<div class="bars">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="menu">
+				<div class="container">
+					<ul class="menu_inner">
+						<li class="menu_item"><a href="index.html" title="Trang Chủ">Trang Chủ</a></li>
+						<li class="menu_item menu_item_parent active">
+							<a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt</a>
+							<ul class="menu_item_child">
+								<li><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt 01</a></li>
+								<li><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt 02</a></li>
+								<li><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt 03</a></li>
+								<li><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt 04</a></li>
+								<li><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt 05</a></li>
+							</ul>
+						</li>
+						<li class="menu_item"><a href="cate.html" title="Máy Đo Độ Lưu Biến">Máy Đo Độ Lưu Biến</a></li>
+						<li class="menu_item"><a href="cate.html" title="Máy Phân Tích Cấu Trúc">Máy Phân Tích Cấu Trúc</a></li>
+						<li class="menu_item"><a href="contact.html" title="Liên Hệ">Liên Hệ</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</header>
 	<!-- header -->
@@ -61,560 +89,183 @@
 		<!-- banner -->
 
 		<div class="products">
-			<div class="product container">
-				<div class="product__cate">
-					<h2>Viscometers - Máy đo độ nhớt</h2>
-				</div>
-				<div class="row">
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
+			<div class="container">
+				<div class="product product__cate">
+					<div class="product__cate_title">
+						<h2><span>Viscometers - Máy đo độ nhớt</span></h2>
 					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
+					<div class="row">
+						<div class="col-sm-3 col-6">
+							<div class="product_item">
+								<div class="product_image">
+									<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
+										<img src="images/products/11101.jpg" alt="">
+									</a>
+								</div>
+								<div class="product_info">
+									<h3 class="product_name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
+								</div>
+							</div>	
+						</div>
+						<div class="col-sm-3 col-6">
+							<div class="product_item">
+								<div class="product_image">
+									<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
+										<img src="images/products/11101.jpg" alt="">
+									</a>
+								</div>
+								<div class="product_info">
+									<h3 class="product_name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
+								</div>
+							</div>	
+						</div>
+						<div class="col-sm-3 col-6">
+							<div class="product_item">
+								<div class="product_image">
+									<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
+										<img src="images/products/11101.jpg" alt="">
+									</a>
+								</div>
+								<div class="product_info">
+									<h3 class="product_name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
+								</div>
+							</div>	
+						</div>
+						<div class="col-sm-3 col-6">
+							<div class="product_item">
+								<div class="product_image">
+									<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
+										<img src="images/products/11101.jpg" alt="">
+									</a>
+								</div>
+								<div class="product_info">
+									<h3 class="product_name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
+								</div>
+							</div>	
+						</div>
+						<div class="col-sm-3 col-6">
+							<div class="product_item">
+								<div class="product_image">
+									<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
+										<img src="images/products/11101.jpg" alt="">
+									</a>
+								</div>
+								<div class="product_info">
+									<h3 class="product_name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
+								</div>
+							</div>	
+						</div>
+						<div class="col-sm-3 col-6">
+							<div class="product_item">
+								<div class="product_image">
+									<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
+										<img src="images/products/11101.jpg" alt="">
+									</a>
+								</div>
+								<div class="product_info">
+									<h3 class="product_name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
+								</div>
+							</div>	
+						</div>
+						<div class="col-sm-3 col-6">
+							<div class="product_item">
+								<div class="product_image">
+									<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
+										<img src="images/products/11101.jpg" alt="">
+									</a>
+								</div>
+								<div class="product_info">
+									<h3 class="product_name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
+								</div>
+							</div>	
+						</div>
+						<div class="col-sm-3 col-6">
+							<div class="product_item">
+								<div class="product_image">
+									<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
+										<img src="images/products/11101.jpg" alt="">
+									</a>
+								</div>
+								<div class="product_info">
+									<h3 class="product_name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
+								</div>
+							</div>	
+						</div>
 					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
+					<div class="product_pagination">
+						<nav aria-label="Page navigation example">
+							<ul class="pagination justify-content-center">
+								<li class="page-item">
+									<a class="page-link" href="#" aria-label="Previous">
+									<span aria-hidden="true">&laquo;</span>
 								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
+								</li>
+								<li class="page-item"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item">
+									<a class="page-link" href="#" aria-label="Next">
+									<span aria-hidden="true">&raquo;</span>
 								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-				</div>
-			</div>
-			<div class="product container">
-				<div class="product__cate">
-					<h2>Viscometers - Máy đo độ nhớt</h2>
-				</div>
-				<div class="row">
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-				</div>
-			</div>
-			<div class="product container">
-				<div class="product__cate">
-					<h2>Viscometers - Máy đo độ nhớt</h2>
-				</div>
-				<div class="row">
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-				</div>
-			</div>
-			<div class="product container">
-				<div class="product__cate">
-					<h2>Viscometers - Máy đo độ nhớt</h2>
-				</div>
-				<div class="row">
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-				</div>
-			</div>
-			<div class="product container">
-				<div class="product__cate">
-					<h2>Viscometers - Máy đo độ nhớt</h2>
-				</div>
-				<div class="row">
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
-					</div>
-					<div class="col-sm-3">
-						<div class="product-item">
-							<div class="product__image">
-								<a href="#" title="MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3">
-									<img src="images/products/11101.jpg" alt="">
-								</a>
-							</div>
-							<div class="product__info">
-								<h3 class="product__name"><a href="#" title="">MÁY ĐO ĐỘ NHỚT SƠN,MỰC IN - MODEL: KU3</a></h3>
-							</div>
-						</div>	
+							</li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- products -->
+
+		<div class="address">
+			<div class="address_detail">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-sm-4 col-12">
+							<p class="address_item"><i class="fa fa-phone"></i> Hotline: 0916 983 232</p>
+						</div>
+						<div class="col-sm-4 col-12">
+							<p class="address_item"><i class="fa fa-map-marker"></i> Số 42/14 Nguyễn Hữu Tiến, P. Tây Thạnh, Q. Tân Phú, Tp. Hồ Chí Minh</p>
+						</div>
+						<div class="col-sm-4 col-12">
+							<p class="address_item"><i class="fa fa-envelope"></i> thongrongtien@gmail.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- address -->
 	</main>
 	<!-- main -->
 
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<div class="footer_logo">
 						<p class="img"><img src="images/logo2.png" alt=""></p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus ducimus, atque quibusdam necessitatibus assumenda officia excepturi reiciendis  maxime dignissimos laborum dolorum eveniet aperiam harum aut tenetur ex fugit, quasi. <a href="#" title="Xem them">Xem thêm >></a></p>
+						
 					</div>
 					<ul class="footer_social">
-						<li><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" title=""><i class="fa fa-instagram"></i></a></li>
-						<li><a href="#" title=""><i class="fa fa-youtube"></i></a></li>
+						<li class="facebook"><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
+						<li class="twitter"><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
+						<li class="youtube"><a href="#" title=""><i class="fa fa-youtube"></i></a></li>
+						<li class="instagram"><a href="#" title=""><i class="fa fa-instagram"></i></a></li>
 					</ul>
+				</div>
+				<div class="col-sm-6">
+					<p class="footer_title"><strong>Giới Thiệu</strong></p>
+					<p class="footer_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus ducimus, atque quibusdam necessitatibus assumenda officia excepturi reiciendis  maxime dignissimos laborum dolorum eveniet aperiam harum aut tenetur ex fugit, quasi.<br><a class="footer_more" href="#" title="Xem them">Xem thêm >></a></p>
 				</div>
 				<div class="col-sm-3">
 					<div class="footer_link">
+						<p class="footer_title"><strong>Liên Kết</strong></p>
 						<ul>
-							<li><a href="#" title="Trang Chủ">Trang Chủ</a></li>
-							<li><a href="#" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt</a></li>
-							<li><a href="#" title="Máy Đo Độ Lưu Biến">Máy Đo Độ Lưu Biến</a></li>
-							<li><a href="#" title="Máy Phân Tích Cấu Trúc">Máy Phân Tích Cấu Trúc</a></li>
-							<li><a href="#" title="Liên Hệ">Liên Hệ</a></li>
+							<li><a href="index.html" title="Trang Chủ">Trang Chủ</a></li>
+							<li><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt</a></li>
+							<li><a href="cate.html" title="Máy Đo Độ Lưu Biến">Máy Đo Độ Lưu Biến</a></li>
+							<li><a href="cate.html" title="Máy Phân Tích Cấu Trúc">Máy Phân Tích Cấu Trúc</a></li>
+							<li><a href="contact.html" title="Liên Hệ">Liên Hệ</a></li>
 						</ul>
-					</div>
-				</div>
-				<div class="col-sm-5">
-					<div class="footer_info">
-						<h4 class="footer_info_heading">CÔNG TY TNHH THƯƠNG MẠI RỒNG TIẾN</h4>
-						<div class="footer_info_txt">
-							<p><strong>Địa chỉ :</strong> Số 42/14 Nguyễn Hữu Tiến, P. Tây Thạnh, Q. Tân Phú, Tp. Hồ Chí Minh<br>
-								<strong>Điện Thoại:</strong>0916 983 232<br>
-								<strong>Email:</strong> thongrongtien@gmail.com
-							</p>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -622,7 +273,7 @@
 	</footer>
 	<!-- footer -->
 
-	<a id="return-to-top" class="td-scroll-up" href="javascript:void(0)">
+	<a id="return_to_top" class="td_scroll_up" href="javascript:void(0)">
   		<i class="fa fa-angle-up" aria-hidden="true"></i>
 	</a>
 	<!-- RETURN TO TOP -->

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
 	<title>Contact</title>
-
-	
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="libs/swiper/css/swiper.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -14,9 +14,12 @@
 	<header class="header">
 		<div class="header_top">
 			<div class="container">
-				<div class="d-flex justify-content-between align-items-center">
+				<div class="d-sm-flex justify-content-sm-between align-items-sm-center">
 					<div class="header_logo">
-						<h1><a href="index.html" title=""><img src="images/logo2.png" alt=""></a></h1>
+						<h1>
+							<span class="d-none">brookfieldvietnam</span>
+							<a href="index.html" title=""><img src="images/logo2.png" alt=""></a>
+						</h1>
 					</div>
 					<div class="header_contact">
 						<span class="txt">Service &amp; Repair: </span>
@@ -24,7 +27,7 @@
 						<div class="header_search">
 							<form action="#" method="POST">
 								<div class="header_search_inner">
-									<input type="text" name="" class="header_search_input">
+									<input type="text" name="search" class="header_search_input">
 									<button type="submit" class="header_search_btn">
 										<i class="fa fa-search"></i>
 									</button>
@@ -36,13 +39,38 @@
 			</div>
 		</div>
 		<div class="header_menu">
-			<ul class="menu container">
-				<li class="menu_item"><a href="index.html" title="Trang Chủ">Trang Chủ</a></li>
-				<li class="menu_item"><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt</a></li>
-				<li class="menu_item"><a href="cate.html" title="Máy Đo Độ Lưu Biến">Máy Đo Độ Lưu Biến</a></li>
-				<li class="menu_item"><a href="cate.html" title="Máy Phân Tích Cấu Trúc">Máy Phân Tích Cấu Trúc</a></li>
-				<li class="menu_item"><a href="contact.html" title="Liên Hệ">Liên Hệ</a></li>
-			</ul>
+			<div class="d-flex">
+				<div class="logo">
+					<img src="images/logo2.png" alt="">
+				</div>
+				<div class="humbgr">
+					<div class="bars">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="menu">
+				<div class="container">
+					<ul class="menu_inner">
+						<li class="menu_item"><a href="index.html" title="Trang Chủ">Trang Chủ</a></li>
+						<li class="menu_item menu_item_parent">
+							<a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt</a>
+							<ul class="menu_item_child">
+								<li><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt 01</a></li>
+								<li><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt 02</a></li>
+								<li><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt 03</a></li>
+								<li><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt 04</a></li>
+								<li><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt 05</a></li>
+							</ul>
+						</li>
+						<li class="menu_item"><a href="cate.html" title="Máy Đo Độ Lưu Biến">Máy Đo Độ Lưu Biến</a></li>
+						<li class="menu_item"><a href="cate.html" title="Máy Phân Tích Cấu Trúc">Máy Phân Tích Cấu Trúc</a></li>
+						<li class="menu_item active"><a href="contact.html" title="Liên Hệ">Liên Hệ</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</header>
 	<!-- header -->
@@ -64,7 +92,16 @@
 			<div class="contact_info">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-4">
+						<div class="col-sm-4 col-12">
+							<div class="contact_item">
+	                            <div class="icon">
+	                                <img src="images/icon_phone.png" alt="">
+	                            </div>
+	                            <p class="title">Phone</p>
+	                            <p>0916 983 232</p>
+	                        </div>
+						</div>
+						<div class="col-sm-4 col-12">
 							<div class="contact_item">
 	                            <div class="icon">
 	                                <img src="images/icon_address.png" alt="">
@@ -73,16 +110,7 @@
 	                            <p>42/14 Nguyễn Hữu Tiến, P. Tây Thạnh,<br>Q. Tân Phú, Tp. Hồ Chí Minh</p>
 	                        </div>
 						</div>
-						<div class="col-sm-4">
-							<div class="contact_item">
-	                            <div class="icon">
-	                                <img src="images/icon_phone.png" alt="">
-	                            </div>
-	                            <p class="title">Tel</p>
-	                            <p>Phone: 0916 983 232</p>
-	                        </div>
-						</div>
-						<div class="col-sm-4">
+						<div class="col-sm-4 col-12">
 							<div class="contact_item">
 	                            <div class="icon">
 	                                <img src="images/icon_address.png" alt="">
@@ -97,7 +125,7 @@
 			<!-- contact info -->
 			<div class="contact_map">
 				<div class="container">
-					<object data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126263.60819855973!2d-84.44808690325613!3d33.735934882617194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDQ0JzQ1LjQiTiA4NMKwMjMnMzUuMyJX!5e0!3m2!1svi!2s!4v1475105845390"></object>
+					<object data="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7838.052377660694!2d106.625898!3d10.809306!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb30e7b65f9c76c1!2sCompanies%20Ltd.%20Rong%20Tien!5e0!3m2!1sen!2sus!4v1573894531524!5m2!1sen!2sus"></object>
 				</div>
 			</div>
 			<!-- contact map -->
@@ -113,54 +141,49 @@
 		                        <input type="text" class="form-control" id="forEmail" placeholder="EMAIL">
 		                    </div>
 		                    <div class="form-group">
-		                        <textarea class="form-control" id="forConment" rows="10" placeholder="COMMENT"></textarea>
+		                        <textarea class="form-control" id="forConment" rows="5" placeholder="COMMENT"></textarea>
 		                    </div>
 		                    <div class="form-group">
-		                        <button type="submit" class="btn btn-4e">Gửi</button>
+		                        <button class="btn" type="submit">Gửi</button>
 		                    </div>
 		                </form>
 		            </div>
 		        </div>
 			</div>
 		</div>
-
+		<!-- contact -->
 	</main>
 	<!-- main -->
 
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<div class="footer_logo">
 						<p class="img"><img src="images/logo2.png" alt=""></p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus ducimus, atque quibusdam necessitatibus assumenda officia excepturi reiciendis  maxime dignissimos laborum dolorum eveniet aperiam harum aut tenetur ex fugit, quasi. <a href="#" title="Xem them">Xem thêm >></a></p>
+						
 					</div>
 					<ul class="footer_social">
-						<li><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" title=""><i class="fa fa-instagram"></i></a></li>
-						<li><a href="#" title=""><i class="fa fa-youtube"></i></a></li>
+						<li class="facebook"><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
+						<li class="twitter"><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
+						<li class="youtube"><a href="#" title=""><i class="fa fa-youtube"></i></a></li>
+						<li class="instagram"><a href="#" title=""><i class="fa fa-instagram"></i></a></li>
 					</ul>
+				</div>
+				<div class="col-sm-6">
+					<p class="footer_title"><strong>Giới Thiệu</strong></p>
+					<p class="footer_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus ducimus, atque quibusdam necessitatibus assumenda officia excepturi reiciendis  maxime dignissimos laborum dolorum eveniet aperiam harum aut tenetur ex fugit, quasi.<br><a class="footer_more" href="#" title="Xem them">Xem thêm >></a></p>
 				</div>
 				<div class="col-sm-3">
 					<div class="footer_link">
+						<p class="footer_title"><strong>Liên Kết</strong></p>
 						<ul>
-							<li><a href="#" title="Trang Chủ">Trang Chủ</a></li>
-							<li><a href="#" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt</a></li>
-							<li><a href="#" title="Máy Đo Độ Lưu Biến">Máy Đo Độ Lưu Biến</a></li>
-							<li><a href="#" title="Máy Phân Tích Cấu Trúc">Máy Phân Tích Cấu Trúc</a></li>
-							<li><a href="#" title="Liên Hệ">Liên Hệ</a></li>
+							<li><a href="index.html" title="Trang Chủ">Trang Chủ</a></li>
+							<li><a href="cate.html" title="Máy Đo Độ Nhớt">Máy Đo Độ Nhớt</a></li>
+							<li><a href="cate.html" title="Máy Đo Độ Lưu Biến">Máy Đo Độ Lưu Biến</a></li>
+							<li><a href="cate.html" title="Máy Phân Tích Cấu Trúc">Máy Phân Tích Cấu Trúc</a></li>
+							<li><a href="contact.html" title="Liên Hệ">Liên Hệ</a></li>
 						</ul>
-					</div>
-				</div>
-				<div class="col-sm-5">
-					<div class="footer_info">
-						<h4 class="footer_info_heading">CÔNG TY TNHH THƯƠNG MẠI RỒNG TIẾN</h4>
-						<div class="footer_info_txt">
-							<p><strong>Địa chỉ :</strong> Số 42/14 Nguyễn Hữu Tiến, P. Tây Thạnh, Q. Tân Phú, Tp. Hồ Chí Minh<br>
-								<strong>Điện Thoại:</strong>0916 983 232<br>
-								<strong>Email:</strong> thongrongtien@gmail.com
-							</p>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -168,7 +191,7 @@
 	</footer>
 	<!-- footer -->
 
-	<a id="return-to-top" class="td-scroll-up" href="javascript:void(0)">
+	<a id="return_to_top" class="td_scroll_up" href="javascript:void(0)">
   		<i class="fa fa-angle-up" aria-hidden="true"></i>
 	</a>
 	<!-- RETURN TO TOP -->
