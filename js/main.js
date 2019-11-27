@@ -24,7 +24,7 @@
       $('#return_to_top').removeClass('td_scroll_up_visible');
     }
   });
-  $('#return-to-top').click(function() {
+  $('#return_to_top').click(function() {
     $('body,html').animate({
       scrollTop : 0
     }, 'slow');
