@@ -1066,14 +1066,33 @@ input[type="tel"] {
 }
 
 /* Phone */
-.callus-phone {
+.phone_fixed {
 	background-color: transparent;
 	cursor: pointer;
 	height: 120px;
 	position: fixed;
+	left: 0px;
+	bottom: -25px;
 	transition: visibility 0.5s ease 0s;
-	width: 120px;
+	width: 275px;
 	z-index: 200000 !important;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.phone_fixed .num {
+	border: 1px solid #b2b2b2;
+    background: #FFF;
+    padding: 3px 12px;
+    border-radius: 10px;
+    color: #015ea6;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.callus-phone {
+	display: block;
 }
 
 .callus-phone-circle {
